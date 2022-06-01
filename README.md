@@ -1,1 +1,1 @@
-# Wether-test-project
+# Wether-tests-project
