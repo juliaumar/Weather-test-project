@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     private WebDriver driver;
-    private final String filePath = "src/test/data/config/configuration.properties";
+    private final String filePath = "src/test/data/configuration.properties";
 
     @BeforeMethod
     public void setUp(){
