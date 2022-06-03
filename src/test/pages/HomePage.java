@@ -23,4 +23,20 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//*[@class ='Icon--icon--3wCKh Icon--actionTheme--sZu_q PrivacyDataNotice--closeButton--1fBzh']")
     public WebElement popUpClose;
+
+    //Scroll down page
+    @FindBy(xpath = "//*[text()='Connect With Us']")
+    public WebElement scrollDown;
+
+    //Facebook
+    @FindBy(name = ("facebook"))
+    public WebElement facebook;
+
+    //Twitter
+    @FindBy(name = ("twitter"))
+    public WebElement twitter;
+
+    //Youtube
+    @FindBy(name = ("youtube"))
+    public WebElement youtube;
 }
